@@ -1,4 +1,8 @@
 /*
 !.gitignore
 !wp-content/
-!wp-config.php
+wp-content/uploads
+wp-content/languages
+wp-content/upgrade
+wp-content/ai1wm-backups
+wp-content/plugins
