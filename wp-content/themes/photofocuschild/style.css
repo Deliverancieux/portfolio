@@ -4,7 +4,7 @@
  Author:       Gergo Dees
  Author URI:   http://dees.design
  Template:     photofocus
- Version:      1.3.1
+ Version:      1.4.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  photofocuschild
@@ -12,9 +12,17 @@
 a:hover, a:focus, .has-background-image .entry-title a:hover, .has-background-image .entry-title a:focus, .has-background-image .entry-meta:hover, .has-background-image .entry-meta:focus, .site-title a:hover, .site-title a:focus, div#footer-menu-section ul li a:hover, div#footer-menu-section ul li a:focus, .portfolio-content-wrapper .hentry .entry-container a:hover, .portfolio-content-wrapper .hentry .entry-container a:focus, .portfolio-section .hentry .hentry-inner .entry-container a:hover, .portfolio-section .hentry .hentry-inner .entry-container a:focus, .widget .ui-state-default a:hover, .widget .ui-state-default a:focus, .widget .ui-widget-content .ui-state-default a:hover, .widget .ui-widget-content .ui-state-default a:focus, .widget .ui-widget-header .ui-state-default a:hover, .widget .ui-widget-header .ui-state-default a:focus, .archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a:hover, .archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a:focus, #footer-newsletter .ewnewsletter .hentry form input[type="submit"]:hover, #footer-newsletter .ewnewsletter .hentry form input[type="submit"]:focus, #feature-slider-section .owl-prev .icon:hover, #feature-slider-section .owl-prev .icon:focus, #feature-slider-section .owl-next .icon:hover, #feature-slider-section .owl-next .icon:focus, .contact-section .contact-info-details .social-navigation a:hover, .contact-section .contact-info-details .social-navigation a:focus, #primary-search-wrapper .menu-toggle:hover, #primary-search-wrapper .menu-toggle:focus, #social-menu-wrapper .menu-toggle:hover, #social-menu-wrapper .menu-toggle:focus, .more-link:hover, .more-link:focus, .more-link .readmore:hover, .more-link .readmore:focus, #team-content-section .button:hover, #team-content-section .button:focus, #testimonial-content-section button:hover, #testimonial-content-section button:focus, .entry-meta a:hover, .entry-meta a:focus, #featured-content-section .readmore:hover, #featured-content-section .readmore:focus, .contact-section .contact-info-details a:hover, .contact-section .contact-info-details a:focus, .has-background-image .entry-meta a:hover, .has-background-image .entry-meta a:focus, .team-content-wrapper .entry-container a:hover, .team-content-wrapper .entry-container a:focus, #primary-search-wrapper button:hover, #primary-search-wrapper button:focus, .site-header-menu button:hover, .site-header-menu button:focus, #portfolio-content-section .filter-button-group .button:hover, #portfolio-content-section .filter-button-group .button:focus, .navigation-modern .menu-inside-wrapper .main-navigation .nav-menu .current_page_item a, .stats-content-wrapper .entry-title a, .scroll-down:hover .icon, .scroll-down:focus .icon, .home .cat-links a, .more-link .readmore:hover svg, .more-link .readmore:focus svg, .button:hover svg, .button:focus svg, button:hover svg, button:focus svg, #testimonial-content-section .section-content-wrapper .entry-content:before, .archive-posts-wrapper .more-link .readmore:hover .icon.icon-arrow-right, .archive-posts-wrapper .more-link .readmore:focus .icon.icon-arrow-right, #portfolio-content-section .button.is-checked, .menu-inside-wrapper .main-navigation ul.nav-menu ul .current-menu-item a, .section-subtitle{
     color: #C93B49;
 }
+.site-title a{
+    text-transform: lowercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 .site-title a:hover{
     color: #1A0E18;
-    text-shadow: -4px 3px 2px rgba(250.5, 0, 0, 0.3);
+}
+.site-description{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
 }
 .scroll-down{
     background-color: #C93B49;
@@ -65,4 +73,21 @@ a:hover, a:focus, .has-background-image .entry-title a:hover, .has-background-im
 }
 div#content{
     background-color: #1B111A;
+}
+h1.entry-title.section-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+
+.page_item a{
+    text-transform: lowercase;
+}
+.menu-label{
+    font-family: 'Montserrat', sans-serif;
+}
+h2.widget-title{
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: lowercase !important;
 }
