@@ -28,7 +28,6 @@ a:hover, a:focus, .has-background-image .entry-title a:hover, .has-background-im
     background-color: #C93B49;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap') !important;
 .custom-header-content .section-title{
     color: #C93B49 !important;
     font-family: 'Josefin Sans', sans-serif;
